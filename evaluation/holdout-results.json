@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-13T13:05:37.775Z",
+  "model": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+  "dtype": "q8",
+  "runtime": "Transformers.js 3.8.1 / Node CPU",
+  "synthetic": true,
+  "threshold": 0.5,
+  "margin": 0.06,
+  "total": 12,
+  "correct": 6,
+  "accepted": 2,
+  "acceptedCorrect": 2,
+  "inferenceSeconds": 0.08,
+  "totalSeconds": 0.99,
+  "results": [
+    {
+      "message": "My parcel seems stuck at the sorting centre. Can you check?",
+      "expected": "delivery",
+      "actual": "delivery",
+      "correct": true,
+      "score": 0.7028,
+      "gap": 0.253,
+      "nearest": "Delivery",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Barang belum tiba walaupun tracking kata delivered.",
+      "expected": "delivery",
+      "actual": "delivery",
+      "correct": true,
+      "score": 0.5719,
+      "gap": 0.2668,
+      "nearest": "Delivery",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "The zipper on the bag does not work. Could I send it back?",
+      "expected": "refund",
+      "actual": "review",
+      "correct": false,
+      "score": 0.4399,
+      "gap": 0.0258,
+      "nearest": "Returns & refunds",
+      "reason": "No close example"
+    },
+    {
+      "message": "Warna barang yang diterima salah. Boleh tukar?",
+      "expected": "refund",
+      "actual": "review",
+      "correct": false,
+      "score": 0.5223,
+      "gap": 0.0437,
+      "nearest": "Product enquiry",
+      "reason": "Two categories are close"
+    },
+    {
+      "message": "Is the large ceramic bowl still available to buy?",
+      "expected": "sales",
+      "actual": "review",
+      "correct": false,
+      "score": 0.476,
+      "gap": 0.1359,
+      "nearest": "Product enquiry",
+      "reason": "No close example"
+    },
+    {
+      "message": "Berapa harga sepasang kasut ini?",
+      "expected": "sales",
+      "actual": "review",
+      "correct": false,
+      "score": 0.461,
+      "gap": 0.2096,
+      "nearest": "Product enquiry",
+      "reason": "No close example"
+    },
+    {
+      "message": "Can I add one more unit to my unshipped order?",
+      "expected": "changes",
+      "actual": "review",
+      "correct": false,
+      "score": 0.4283,
+      "gap": 0.0284,
+      "nearest": "Order changes",
+      "reason": "No close example"
+    },
+    {
+      "message": "Saya tersalah alamat. Tolong ubah sebelum parcel keluar.",
+      "expected": "changes",
+      "actual": "review",
+      "correct": false,
+      "score": 0.6887,
+      "gap": 0.018,
+      "nearest": "Order changes",
+      "reason": "Two categories are close"
+    },
+    {
+      "message": "Everything looks lovely, thank you for packing it carefully.",
+      "expected": "review",
+      "actual": "review",
+      "correct": true,
+      "score": 0.6475,
+      "gap": 0.2462,
+      "nearest": "Needs review",
+      "reason": "Matches a review example"
+    },
+    {
+      "message": "Terima kasih! Saya suka barang ini.",
+      "expected": "review",
+      "actual": "review",
+      "correct": true,
+      "score": 0.631,
+      "gap": 0.2581,
+      "nearest": "Needs review",
+      "reason": "Matches a review example"
+    },
+    {
+      "message": "Could you tell me how to bake a chocolate cake?",
+      "expected": "review",
+      "actual": "review",
+      "correct": true,
+      "score": 0.1998,
+      "gap": 0.0114,
+      "nearest": "Product enquiry",
+      "reason": "No close example"
+    },
+    {
+      "message": "I need a refund for one item and a new address for another.",
+      "expected": "review",
+      "actual": "review",
+      "correct": true,
+      "score": 0.8302,
+      "gap": 0.1083,
+      "nearest": "Needs review",
+      "reason": "Matches a review example"
+    }
+  ]
+}

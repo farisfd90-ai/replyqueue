@@ -1,0 +1,9 @@
+{
+  "name": "replyqueue",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local semantic inbox triage for small businesses",
+  "scripts": {"start": "node server.mjs", "test": "node --test tests/*.test.mjs", "evaluate": "node evaluation/run.mjs"},
+  "dependencies": {"@huggingface/transformers": "3.8.1"}
+}

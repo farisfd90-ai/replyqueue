@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-13T13:03:44.710Z",
+  "model": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+  "dtype": "q8",
+  "runtime": "Transformers.js 3.8.1 / Node CPU",
+  "synthetic": true,
+  "threshold": 0.5,
+  "margin": 0.06,
+  "total": 20,
+  "correct": 16,
+  "accepted": 18,
+  "acceptedCorrect": 15,
+  "inferenceSeconds": 0.14,
+  "totalSeconds": 4.13,
+  "results": [
+    {
+      "message": "Can you tell me when my package will be delivered?",
+      "expected": "delivery",
+      "actual": "delivery",
+      "correct": true,
+      "score": 0.6522,
+      "gap": 0.2507,
+      "nearest": "Delivery",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "The courier tracking has not updated for three days.",
+      "expected": "delivery",
+      "actual": "delivery",
+      "correct": true,
+      "score": 0.5685,
+      "gap": 0.2537,
+      "nearest": "Delivery",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Pesanan saya masih belum sampai. Di mana parcel?",
+      "expected": "delivery",
+      "actual": "delivery",
+      "correct": true,
+      "score": 0.776,
+      "gap": 0.2086,
+      "nearest": "Delivery",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Boleh semak bila kurier hantar barang saya?",
+      "expected": "delivery",
+      "actual": "delivery",
+      "correct": true,
+      "score": 0.6281,
+      "gap": 0.0672,
+      "nearest": "Delivery",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "The bag is torn. I would like my money back.",
+      "expected": "refund",
+      "actual": "refund",
+      "correct": true,
+      "score": 0.6957,
+      "gap": 0.306,
+      "nearest": "Returns & refunds",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "You sent the wrong item. How do I return it?",
+      "expected": "refund",
+      "actual": "refund",
+      "correct": true,
+      "score": 0.6643,
+      "gap": 0.1352,
+      "nearest": "Returns & refunds",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Produk pecah semasa sampai. Saya nak refund.",
+      "expected": "refund",
+      "actual": "refund",
+      "correct": true,
+      "score": 0.8457,
+      "gap": 0.4095,
+      "nearest": "Returns & refunds",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Saiz tak muat. Boleh tukar kepada saiz lebih besar?",
+      "expected": "refund",
+      "actual": "refund",
+      "correct": true,
+      "score": 0.8035,
+      "gap": 0.386,
+      "nearest": "Returns & refunds",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "How much is the handmade mug and is it in stock?",
+      "expected": "sales",
+      "actual": "review",
+      "correct": false,
+      "score": 0.4907,
+      "gap": 0.2224,
+      "nearest": "Product enquiry",
+      "reason": "No close example"
+    },
+    {
+      "message": "Do you sell a red version in size L?",
+      "expected": "sales",
+      "actual": "sales",
+      "correct": true,
+      "score": 0.5495,
+      "gap": 0.0875,
+      "nearest": "Product enquiry",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Masih ada stok baju ini? Berapa harganya?",
+      "expected": "sales",
+      "actual": "sales",
+      "correct": true,
+      "score": 0.6011,
+      "gap": 0.2737,
+      "nearest": "Product enquiry",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Ada warna hijau untuk produk ini?",
+      "expected": "sales",
+      "actual": "sales",
+      "correct": true,
+      "score": 0.6844,
+      "gap": 0.2913,
+      "nearest": "Product enquiry",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "I entered the wrong address. Please change it before shipping.",
+      "expected": "changes",
+      "actual": "changes",
+      "correct": true,
+      "score": 0.7412,
+      "gap": 0.1897,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Cancel my purchase, please. It has not shipped yet.",
+      "expected": "changes",
+      "actual": "changes",
+      "correct": true,
+      "score": 0.7417,
+      "gap": 0.1925,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Saya nak ubah kuantiti pesanan sebelum dihantar.",
+      "expected": "changes",
+      "actual": "changes",
+      "correct": true,
+      "score": 0.6429,
+      "gap": 0.2467,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Tolong batalkan order saya sekarang.",
+      "expected": "changes",
+      "actual": "changes",
+      "correct": true,
+      "score": 0.7053,
+      "gap": 0.27,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "Thank you, the order arrived and I love it.",
+      "expected": "review",
+      "actual": "changes",
+      "correct": false,
+      "score": 0.5929,
+      "gap": 0.2468,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "What is the weather like in Tokyo today?",
+      "expected": "review",
+      "actual": "review",
+      "correct": true,
+      "score": 0.1673,
+      "gap": 0.0258,
+      "nearest": "Product enquiry",
+      "reason": "No close example"
+    },
+    {
+      "message": "Please refund me and change the delivery address.",
+      "expected": "review",
+      "actual": "changes",
+      "correct": false,
+      "score": 0.7177,
+      "gap": 0.1318,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    },
+    {
+      "message": "I want to return it or cancel the order. I am not sure.",
+      "expected": "review",
+      "actual": "changes",
+      "correct": false,
+      "score": 0.7391,
+      "gap": 0.2134,
+      "nearest": "Order changes",
+      "reason": "Closest example match"
+    }
+  ]
+}

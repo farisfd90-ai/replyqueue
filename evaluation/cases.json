@@ -1,0 +1,22 @@
+[
+  {"message":"Can you tell me when my package will be delivered?","expected":"delivery"},
+  {"message":"The courier tracking has not updated for three days.","expected":"delivery"},
+  {"message":"Pesanan saya masih belum sampai. Di mana parcel?","expected":"delivery"},
+  {"message":"Boleh semak bila kurier hantar barang saya?","expected":"delivery"},
+  {"message":"The bag is torn. I would like my money back.","expected":"refund"},
+  {"message":"You sent the wrong item. How do I return it?","expected":"refund"},
+  {"message":"Produk pecah semasa sampai. Saya nak refund.","expected":"refund"},
+  {"message":"Saiz tak muat. Boleh tukar kepada saiz lebih besar?","expected":"refund"},
+  {"message":"How much is the handmade mug and is it in stock?","expected":"sales"},
+  {"message":"Do you sell a red version in size L?","expected":"sales"},
+  {"message":"Masih ada stok baju ini? Berapa harganya?","expected":"sales"},
+  {"message":"Ada warna hijau untuk produk ini?","expected":"sales"},
+  {"message":"I entered the wrong address. Please change it before shipping.","expected":"changes"},
+  {"message":"Cancel my purchase, please. It has not shipped yet.","expected":"changes"},
+  {"message":"Saya nak ubah kuantiti pesanan sebelum dihantar.","expected":"changes"},
+  {"message":"Tolong batalkan order saya sekarang.","expected":"changes"},
+  {"message":"Thank you, the order arrived and I love it.","expected":"review"},
+  {"message":"What is the weather like in Tokyo today?","expected":"review"},
+  {"message":"Please refund me and change the delivery address.","expected":"review"},
+  {"message":"I want to return it or cancel the order. I am not sure.","expected":"review"}
+]

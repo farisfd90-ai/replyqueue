@@ -1,0 +1,14 @@
+[
+ {"message":"My parcel seems stuck at the sorting centre. Can you check?","expected":"delivery"},
+ {"message":"Barang belum tiba walaupun tracking kata delivered.","expected":"delivery"},
+ {"message":"The zipper on the bag does not work. Could I send it back?","expected":"refund"},
+ {"message":"Warna barang yang diterima salah. Boleh tukar?","expected":"refund"},
+ {"message":"Is the large ceramic bowl still available to buy?","expected":"sales"},
+ {"message":"Berapa harga sepasang kasut ini?","expected":"sales"},
+ {"message":"Can I add one more unit to my unshipped order?","expected":"changes"},
+ {"message":"Saya tersalah alamat. Tolong ubah sebelum parcel keluar.","expected":"changes"},
+ {"message":"Everything looks lovely, thank you for packing it carefully.","expected":"review"},
+ {"message":"Terima kasih! Saya suka barang ini.","expected":"review"},
+ {"message":"Could you tell me how to bake a chocolate cake?","expected":"review"},
+ {"message":"I need a refund for one item and a new address for another.","expected":"review"}
+]
